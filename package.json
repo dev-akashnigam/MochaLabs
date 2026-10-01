@@ -11,5 +11,8 @@
   "description": "",
   "dependencies": {
     "mocha": "^11.8.0"
+  },
+  "devDependencies": {
+    "chai": "^6.2.2"
   }
 }
