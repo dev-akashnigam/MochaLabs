@@ -1,0 +1,176 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-10-02T12:31:53.632Z",
+    "end": "2026-10-02T12:32:08.708Z",
+    "duration": 15076,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "a0af24be-0b81-472d-b7a1-31606ec57d22",
+      "title": "",
+      "fullFile": "C:\\Users\\akash\\Mocha101\\_17_reporting_format_xml.js",
+      "file": "\\_17_reporting_format_xml.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b29a574a-c115-41c9-9dbb-aa93994bc2bf",
+          "title": "Login Tests",
+          "fullFile": "C:\\Users\\akash\\Mocha101\\_17_reporting_format_xml.js",
+          "file": "\\_17_reporting_format_xml.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "test case no. 0001",
+              "fullTitle": "Login Tests test case no. 0001",
+              "timedOut": false,
+              "duration": 3011,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"Starting test case no. 0001\");\nawait new Promise((resolve) => {\n    setTimeout(resolve, 3*1000);\n});\nconsole.log(\"Finishing test case no. 0001\");",
+              "err": {},
+              "uuid": "89cfe6c3-9578-46da-9d8a-abd9ae2e2f19",
+              "parentUUID": "b29a574a-c115-41c9-9dbb-aa93994bc2bf",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "test case no. 0002",
+              "fullTitle": "Login Tests test case no. 0002",
+              "timedOut": false,
+              "duration": 3002,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"Starting test case no. 0002\");\nawait new Promise((resolve) => {\n    setTimeout(resolve, 3*1000);\n});\nconsole.log(\"Finishing test case no. 0002\");",
+              "err": {},
+              "uuid": "d4ecb75b-5774-4634-84f8-8a5d9900750d",
+              "parentUUID": "b29a574a-c115-41c9-9dbb-aa93994bc2bf",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "test case no. 0003",
+              "fullTitle": "Login Tests test case no. 0003",
+              "timedOut": false,
+              "duration": 3012,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"Starting test case no. 0003\");\nawait new Promise((resolve) => {\n    setTimeout(resolve, 3*1000);\n});\nconsole.log(\"Finishing test case no. 0003\");",
+              "err": {},
+              "uuid": "83caa885-c9c0-44f9-a07c-ed8524d88882",
+              "parentUUID": "b29a574a-c115-41c9-9dbb-aa93994bc2bf",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "test case no. 0004",
+              "fullTitle": "Login Tests test case no. 0004",
+              "timedOut": false,
+              "duration": 3010,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"Starting test case no. 0004\");\nawait new Promise((resolve) => {\n    setTimeout(resolve, 3*1000);\n});\nconsole.log(\"Finishing test case no. 0004\");",
+              "err": {},
+              "uuid": "6ab10bba-7c91-4b45-8bfa-3b6117d30a0d",
+              "parentUUID": "b29a574a-c115-41c9-9dbb-aa93994bc2bf",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "test case no. 0005",
+              "fullTitle": "Login Tests test case no. 0005",
+              "timedOut": false,
+              "duration": 3015,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"Starting test case no. 0005\");\nawait new Promise((resolve) => {\n    setTimeout(resolve, 3*1000);\n});\nconsole.log(\"Finishing test case no. 0005\");",
+              "err": {},
+              "uuid": "d674cad6-2ade-49fb-bcc5-8221c1ca7394",
+              "parentUUID": "b29a574a-c115-41c9-9dbb-aa93994bc2bf",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "89cfe6c3-9578-46da-9d8a-abd9ae2e2f19",
+            "d4ecb75b-5774-4634-84f8-8a5d9900750d",
+            "83caa885-c9c0-44f9-a07c-ed8524d88882",
+            "6ab10bba-7c91-4b45-8bfa-3b6117d30a0d",
+            "d674cad6-2ade-49fb-bcc5-8221c1ca7394"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 15050,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 20000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 20000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "11.8.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.4"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.3.2"
+    }
+  }
+}
