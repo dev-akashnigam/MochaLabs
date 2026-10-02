@@ -14,5 +14,8 @@
   },
   "devDependencies": {
     "chai": "^6.2.2"
+  },
+  "mocha": {
+    "timeout": 2000
   }
 }
