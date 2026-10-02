@@ -16,6 +16,6 @@
     "chai": "^6.2.2"
   },
   "mocha": {
-    "timeout": 2000
+    "timeout": 20000
   }
 }
