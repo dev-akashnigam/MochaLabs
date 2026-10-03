@@ -1,108 +1,66 @@
 {
   "stats": {
     "suites": 1,
-    "tests": 0,
-    "passes": 0,
+    "tests": 1,
+    "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2026-10-03T10:26:11.704Z",
-    "end": "2026-10-03T10:26:11.720Z",
-    "duration": 16,
+    "start": "2026-10-03T10:51:44.885Z",
+    "end": "2026-10-03T10:51:44.899Z",
+    "duration": 14,
     "testsRegistered": 1,
-    "passPercent": 0,
+    "passPercent": 100,
     "pendingPercent": 0,
-    "other": 1,
-    "hasOther": true,
-    "skipped": 1,
-    "hasSkipped": true
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
   },
   "results": [
     {
-      "uuid": "e772edfa-bc9e-41f3-bb28-0056e515bbd9",
+      "uuid": "ce4602ad-3fb3-4eae-b4cb-086e954444e6",
       "title": "",
-      "fullFile": "C:\\Users\\akash\\Mocha101\\_20_alwaysRun-equivalent.js",
-      "file": "\\_20_alwaysRun-equivalent.js",
+      "fullFile": "C:\\Users\\akash\\Mocha101\\_21_prevent-test-failure-due-to-exception.js",
+      "file": "\\_21_prevent-test-failure-due-to-exception.js",
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
-          "uuid": "f89e1782-2216-485b-a338-a68c030ccf5c",
+          "uuid": "5bc9f6eb-9484-4d8d-9845-52e752a10f0b",
           "title": "Login Tests",
-          "fullFile": "C:\\Users\\akash\\Mocha101\\_20_alwaysRun-equivalent.js",
-          "file": "\\_20_alwaysRun-equivalent.js",
-          "beforeHooks": [
-            {
-              "title": "\"before each\" hook for \"test case no. 0001\"",
-              "fullTitle": "Login Tests \"before each\" hook for \"test case no. 0001\"",
-              "timedOut": false,
-              "duration": 2,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
-              "pending": false,
-              "context": null,
-              "code": "console.log(\"Starting beforeEach()..\");\nexpect(true).to.be.false;\nconsole.log(\"Finishing beforeEach()..\");",
-              "err": {
-                "message": "AssertionError: expected true to be false",
-                "estack": "AssertionError: expected true to be false\n    at Context.<anonymous> (_20_alwaysRun-equivalent.js:7:27)\n    at process.processImmediate (node:internal/timers:485:21)",
-                "diff": "- true\n+ false\n"
-              },
-              "uuid": "382e9533-f417-4798-bea0-7849e1b6d8ce",
-              "parentUUID": "f89e1782-2216-485b-a338-a68c030ccf5c",
-              "isHook": true,
-              "skipped": false
-            }
-          ],
-          "afterHooks": [
-            {
-              "title": "\"after each\" hook in \"Login Tests\"",
-              "fullTitle": "Login Tests \"after each\" hook in \"Login Tests\"",
-              "timedOut": false,
-              "duration": 1,
-              "state": null,
-              "speed": null,
-              "pass": false,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "console.log(\"Starting afterEach()..\");\nconsole.log(\"Finishing afterEach()..\");",
-              "err": {},
-              "uuid": "94be3112-c34e-4384-87a3-d6fcc1174ca6",
-              "parentUUID": "f89e1782-2216-485b-a338-a68c030ccf5c",
-              "isHook": true,
-              "skipped": false
-            }
-          ],
+          "fullFile": "C:\\Users\\akash\\Mocha101\\_21_prevent-test-failure-due-to-exception.js",
+          "file": "\\_21_prevent-test-failure-due-to-exception.js",
+          "beforeHooks": [],
+          "afterHooks": [],
           "tests": [
             {
               "title": "test case no. 0001",
               "fullTitle": "Login Tests test case no. 0001",
               "timedOut": false,
-              "duration": 0,
-              "state": null,
-              "speed": null,
-              "pass": false,
+              "duration": 4,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
-              "code": "console.log(\"Starting test case no. 0001\");\nawait new Promise((resolve) => {\n    setTimeout(resolve, 3*1000)\n});\nconsole.log(\"Finishing test case no. 0001\");",
+              "code": "expect(function () {\n    console.log(\"Starting test....\");\n    let a = 100;\n    let b = 0;\n    if(b==0) {\n        throw new Error(\"Cannot divide by 0.\");\n    }\n    let c = a / b;\n    console.log(c);\n    console.log(\"Finishing test....\");\n}).to.throw(\"divide\");",
               "err": {},
-              "uuid": "40f38057-e8c9-4e5f-8a1e-fb7517d8f171",
-              "parentUUID": "f89e1782-2216-485b-a338-a68c030ccf5c",
+              "uuid": "10448072-0b82-4e3e-af3f-04bd4bde1173",
+              "parentUUID": "5bc9f6eb-9484-4d8d-9845-52e752a10f0b",
               "isHook": false,
-              "skipped": true
+              "skipped": false
             }
           ],
           "suites": [],
-          "passes": [],
+          "passes": [
+            "10448072-0b82-4e3e-af3f-04bd4bde1173"
+          ],
           "failures": [],
           "pending": [],
-          "skipped": [
-            "40f38057-e8c9-4e5f-8a1e-fb7517d8f171"
-          ],
-          "duration": 0,
+          "skipped": [],
+          "duration": 4,
           "root": false,
           "rootEmpty": false,
           "_timeout": 20000
